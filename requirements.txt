@@ -1,0 +1,8 @@
+requests
+openai
+python-dotenv
+pyodbc
+azure-functions
+streamlit==1.35.0
+fitz  # Comes from 'PyMuPDF'
+PyMuPDF

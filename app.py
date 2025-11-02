@@ -454,7 +454,7 @@ def chat_interface():
                     model=os.getenv("AZURE_DEPLOYMENT_NAME"),
                     messages=st.session_state.chat_history,
                     temperature=0.7,
-                    max_tokens=1200
+                    max_tokens=3000
                 )
                 reply = response.choices[0].message.content.strip()
                 st.session_state.chat_history.append({"role": "assistant", "content": reply})

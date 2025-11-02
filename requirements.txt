@@ -3,10 +3,10 @@ openai
 python-dotenv
 pyodbc
 azure-functions
-streamlit==1.35.0
 PyMuPDF==1.25.5
 pyrebase4
 setuptools
 oauth2client
 gcloud
 requests-toolbelt
+streamlit==1.39.0
